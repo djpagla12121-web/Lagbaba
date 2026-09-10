@@ -1,0 +1,6 @@
+{
+  "name": "FakePingZzz",
+  "description": "Network latency simulation, game booster VPN and floating HUD controller for gaming performance testing.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
