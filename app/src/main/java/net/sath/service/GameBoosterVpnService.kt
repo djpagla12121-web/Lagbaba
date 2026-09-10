@@ -120,11 +120,9 @@ class GameBoosterVpnService : VpnService() {
         try {
             val builder = Builder()
                 .setSession("FakePingZzz Booster")
-                .addAddress("10.8.0.2", 24)
-                .addDnsServer("8.8.8.8")
-                .addDnsServer("1.1.1.1")
-                .setMtu(1400)
-                .addRoute("0.0.0.0", 0)
+                .addAddress("10.8.0.2", 32)
+                .addRoute("10.8.0.0", 24)
+                .setMtu(1500)
 
             vpnInterface = builder.establish()
             isServiceRunning = true
